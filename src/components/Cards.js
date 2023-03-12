@@ -1,6 +1,7 @@
 import "../styles/cards.scss";
 import Stories from "./Stories";
 import Card from "./Card";
+import image from '../images/profile.jpg';
 
 function Cards() {
   const commentsOne = [
@@ -42,11 +43,11 @@ function Cards() {
       <Stories />
 
       <Card
-        accountName="rafagrassetti"
+        accountName="Haileamlak Waleligne"
         storyBorder={true}
-        image="https://picsum.photos/800/900"
+        image={image}
         comments={commentsOne}
-        likedByText="dadatlacak"
+        likedByText="Kingo"
         likedByNumber={89}
         hours={16}
       />
