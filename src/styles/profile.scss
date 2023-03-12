@@ -1,0 +1,40 @@
+@import 'properties';
+
+.profile{
+    display:flex;
+    align-items:center;
+    font-size:0.8em;
+    margin-bottom:0.85em;
+
+    .textContainer{
+        display:flex;
+        flex-direction:colum;
+        margin: left 1em;
+        min-width:180px;
+
+        .accountName{
+            font-weight:500;
+            margin-bottom:10px;
+            margin-left:10px;
+
+            &:hover{
+            cursor:pointer;
+            text-decoration:underline;
+        }
+    }
+    .caption{
+        color:$font-color-secondary;
+        margin-top:15px;
+        margin-right:14px;
+        margin-left:-50px;
+
+        &.small{
+            font-size:0.8em;
+        }
+    }
+    }
+    a{
+        text-align:right;
+        width:100%
+    }
+}

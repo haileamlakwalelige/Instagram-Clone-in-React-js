@@ -1,0 +1,23 @@
+@import 'properties';
+
+.suggestion{
+    margin-top:1.23em;
+
+    .titleContainer{
+        display:flex;
+        font-size:0.8em;
+        font-weight:500;
+        color:$font-color-secondary;
+        margin-bottom:1.23em;
+
+        .title{
+            min-width:2000px;
+        
+    }
+    a{
+        width:100%;
+        text-align:right;
+        color:black;
+    }
+}
+}
