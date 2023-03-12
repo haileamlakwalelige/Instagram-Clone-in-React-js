@@ -4,7 +4,7 @@ import HorizontalScroll from 'react-horizontal-scrolling';
 function Stories() {
   return (
     <div className="stories">
-      <HorizontalScroll className="scroll" reverseScroll={true}>
+      <HorizontalScroll className="scroll" reverseScroll={true} scroll={true}>
         <Story />
         <Story />
         <Story />
